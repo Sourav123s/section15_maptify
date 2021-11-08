@@ -309,7 +309,7 @@ class App {
   }
   reset() {
     localStorage.removeItem("workout");
-    localStorage.reload();
+    location.reload();
   }
 }
 
